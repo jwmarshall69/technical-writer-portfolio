@@ -1,1 +1,20 @@
-
+name: Content request
+description: Ask for new or updated content
+title: "[Content] <short description>"
+labels: [content]
+body:
+- type: textarea
+id: goal
+attributes:
+label: Reader goal
+description: What does the reader need to accomplish?
+- type: textarea
+id: scope
+attributes:
+label: Scope
+description: What this covers and does not cover
+- type: input
+id: due
+attributes:
+label: Deadline
+placeholder: YYYY-MM-DD

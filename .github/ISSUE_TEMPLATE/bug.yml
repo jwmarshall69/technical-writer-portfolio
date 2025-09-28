@@ -1,1 +1,13 @@
-
+name: Bug in content
+description: Report a defect or broken link
+title: "[Bug] <page/section>"
+labels: [bug]
+body:
+- type: input
+id: url
+attributes:
+label: URL
+- type: textarea
+id: details
+attributes:
+label: What’s wrong?
