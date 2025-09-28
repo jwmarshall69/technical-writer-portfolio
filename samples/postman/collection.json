@@ -1,1 +1,29 @@
-
+{
+    "info": {
+        "name": "Hello API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET /hello",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "{{baseUrl}}/hello?name={{name}}",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "hello"
+                    ],
+                    "query": [
+                        {
+                            "key": "name",
+                            "value": "World"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
